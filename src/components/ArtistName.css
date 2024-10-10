@@ -1,16 +1,22 @@
-.artistName p {
-  font-size: 14px;
-  font-family: Helvetica, Arial, sans-serif;
-  color: #a0a0a0;
+.artistName {
   text-align: center;
+}
+
+.artistName span {
+  font-size: 14px;
+  font-family: Helvetica;
+  color: #a0a0a0;
 }
 
 .artistName a {
   text-decoration: none;
   color: #a0a0a0;
   transition: color 0.3s ease;
+  display: inline;
+  /* Ensures artist names are on the same line */
 }
 
 .artistName a:hover {
   color: #fff;
+  text-decoration: underline;
 }

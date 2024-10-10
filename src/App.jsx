@@ -1,8 +1,6 @@
 import data from "./data.json";
 import { Album } from "./components/Album.jsx";
 
-console.log(data);
-
 
 export const App = () => {
   const { albums } = data;
@@ -23,3 +21,6 @@ export const App = () => {
     </div>
   )
 };
+
+
+
