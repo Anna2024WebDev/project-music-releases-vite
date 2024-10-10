@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-
-import { CoverImage } from "../CoverImage/CoverImage.jsx"
-import { AlbumName } from "../AlbumName/AlbumName.jsx"
-import { ArtistName } from "../ArtistName/ArtistName.jsx"
+import "./Album.css"
+import { CoverImage } from "./CoverImage.jsx"
+import { AlbumName } from "./AlbumName.jsx"
+import { ArtistName } from "./ArtistName.jsx"
 
 export const Album = ({ name, albumUrl, artists, image }) => {
   return (
@@ -12,4 +12,4 @@ export const Album = ({ name, albumUrl, artists, image }) => {
       <ArtistName artists={artists} />
     </div>
   );
-};
+}

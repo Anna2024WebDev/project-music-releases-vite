@@ -1,0 +1,45 @@
+.coverImage {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.albumCoverImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: filter 0.3s ease;
+}
+
+.coverImage:hover .albumCoverImage {
+  filter: brightness(50%);
+}
+
+.icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.coverImage:hover .icons {
+  opacity: 1;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.play.icon:hover {
+  transform: scale(1.2);
+}

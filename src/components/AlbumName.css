@@ -1,0 +1,17 @@
+.albumName {
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.albumName a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.albumName a:hover {
+  color: #a0a0a0;
+}

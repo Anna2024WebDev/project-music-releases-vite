@@ -1,0 +1,33 @@
+.album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.album:hover {
+  transform: scale(1.05);
+}
+
+.albumSection {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* 4 columns on large screens */
+}
+
+/* Media query for tablets (2 albums per row) */
+@media (max-width: 768px) {
+  .albumSection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Media query for mobile (1 album per row) */
+@media (max-width: 480px) {
+  .albumSection {
+    grid-template-columns: 1fr;
+  }
+}
