@@ -1,4 +1,5 @@
 import data from "./data.json";
+import { Album } from "./components/Album/Album"
 
 console.log(data);
 
