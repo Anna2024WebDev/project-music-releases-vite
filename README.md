@@ -1,6 +1,6 @@
 # Music Releases
 
-This week we started learning about React. Our first in React was to build a Spotify mockup page. 
+This week we started learning about React. Our first project in React was to build a Spotify mockup page. 
 
 ### The Problem
 
