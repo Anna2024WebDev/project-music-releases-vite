@@ -1,5 +1,6 @@
 import data from "./data.json";
 import { Album } from "./components/Album.jsx";
+import { Header } from "./components/Header.jsx";
 
 
 export const App = () => {
@@ -16,10 +17,11 @@ export const App = () => {
     )
   );
   return (
-    <div>
+    <>
+      <Header />
       <div className="albumSection">{renderAlbums}</div>
-    </div>
-  )
+    </>
+  );
 };
 
 
