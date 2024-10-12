@@ -2,7 +2,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  color: #ffffff;
+  color: #a0a0a0;
+  font-weight: 300;
   text-align: center;
   box-sizing: border-box;
   /* Include padding in the element's total width */
