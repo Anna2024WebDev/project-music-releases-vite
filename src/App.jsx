@@ -1,6 +1,7 @@
 import data from "./data.json";
 import { Album } from "./components/Album.jsx";
 import { Header } from "./components/Header.jsx";
+import { Footer } from "./components/Footer.jsx";
 
 
 export const App = () => {
@@ -20,6 +21,7 @@ export const App = () => {
     <>
       <Header />
       <div className="albumSection">{renderAlbums}</div>
+      <Footer />
     </>
   );
 };

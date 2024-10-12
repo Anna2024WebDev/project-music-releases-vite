@@ -8,7 +8,7 @@ I started by sketching out on paper how I wanted the structure of the components
 
 Then I moved on to importing and exporting components and after that moved on to the styling. It was tricky with the styling of each component but also very easy to follow in the end. I looked at my older projects a lot and of course googled and asked chatGPT. At first I forgot to import the CSS files to and could not understand why none of the changes I made was reflected in the browser. 
 
-If I had more time I would go for the stretch goals and add more hoover effects, perhaps created a logotype as well. 
+If I had more time I would go for the stretch goals and add more hoover effects.
 
 ### View it live
 https://myspotifymockup.netlify.app/
