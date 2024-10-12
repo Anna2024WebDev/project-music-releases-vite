@@ -4,4 +4,23 @@
   width: 100%;
   color: #ffffff;
   text-align: center;
+  box-sizing: border-box;
+  /* Include padding in the element's total width */
+}
+
+img.logo {
+  width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 10px 0px;
+}
+
+p {
+  font-size: 20px;
+  margin: 10px 0px;
 }
