@@ -1,15 +1,16 @@
 .albumName {
   font-size: 14px;
+  font-weight: bolder;
   font-family: Helvetica;
   color: #ffffff;
-  text-align: center;
-  margin-top: 10px;
+  margin: 10px 0px 5px;
 }
 
 .albumName a {
   text-decoration: none;
   color: #ffffff;
   transition: color 0.3s ease;
+  text-align: left;
 }
 
 .albumName a:hover {

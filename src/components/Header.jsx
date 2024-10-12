@@ -6,7 +6,7 @@ export const Header = () => {
     <>
       < header className="Header">
         <h1><img src={logo} alt="logo" className="SoundScape logo" />SoundScape</h1>
-        <p>Discover new music.</p>
+        <p>Explore trending artists and albums</p>
       </header >
     </>
   );
